@@ -1,2 +1,9 @@
-package uz.ilmnajot.securityjwt.service;public interface UserService {
+package uz.ilmnajot.securityjwt.service;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public interface UserService {
+
+    UserDetailsService userDetailsService();
 }

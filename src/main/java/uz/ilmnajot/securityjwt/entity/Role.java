@@ -1,2 +1,7 @@
-package uz.ilmnajot.securityjwt.entity;public class Role {
+package uz.ilmnajot.securityjwt.entity;
+
+public enum Role {
+
+    ADMIN,
+    USER
 }
